@@ -1,5 +1,6 @@
 # DJUANDA Random User
-Random Name library Javascript
+Random Name library <br/>
+ Javascript
 
 ## Installation
 
