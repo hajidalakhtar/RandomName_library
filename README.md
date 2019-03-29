@@ -17,7 +17,7 @@ Random Name library Javascript
     Djuanda.randomNameId('class_Name')
 </script>
 ```
-## Contoh
+## Example
 
 ```
 <!DOCTYPE html>
