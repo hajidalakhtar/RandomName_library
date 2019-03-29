@@ -1,6 +1,5 @@
 # DJUANDA Random User
-Random Name library <br/>
- Javascript
+Random Name library Javascript
 
 ## Installation
 
@@ -60,6 +59,11 @@ Random Name library <br/>
 </script>
 </html>
 ```
+## Type
+randomNameOnline <br/> randomNameOnlineId <br/> randomName <br/>randomNameId
+
+
+
 
 
 ## License
