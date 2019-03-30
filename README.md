@@ -8,6 +8,11 @@ Random Name library Javascript
 ```bash
 //download file and use the file
 <script src="Djuanda.js"></script>
+<br/>
+Or
+<br/>
+<script src="http://portofolio.hajidalakhtar.site/Djuanda.js"></script>
+
 ```
 
 ## Usage
