@@ -53,7 +53,7 @@ Random Name library Javascript
     </table>
 
 </body>
-<script src="Djuanda.js"></script>
+<script src="http://portofolio.hajidalakhtar.site/Djuanda.js"></script>
 <script>
     Djuanda.randomNameId('nama')
 </script>
