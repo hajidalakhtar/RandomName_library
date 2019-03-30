@@ -1,4 +1,4 @@
-# DJUANDA Random User
+# DJUANDA Random Name
 Random Name library Javascript
 
 ## Installation
