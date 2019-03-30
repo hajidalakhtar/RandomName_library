@@ -4,15 +4,31 @@
     var Djuanda = {};
 
         //  ============== Random name ============= \\
-        Djuanda.randomNameOnline = function(callback){
-            fetch('https://randomuser.me/api/?nat=au')
+        Djuanda.randomNameOnlineId = function(callback){
+            var elems = document.getElementsByClassName(callback);
+            fetch('https://uinames.com/api/?region=indonesia&amount='+elems.length)
             .then(response => response.json())
             .then(data => {
-                    var data = data.results[0].name.first +' '+ data.results[0].name.last;
-                    document.getElementById(callback).innerHTML = data
+                for(var i = 0; i < elems.length; i++) {
+                    elems[i].innerHTML = data[i].name+' '+ data[i].surname;
+                }
             })
             .catch(error => console.error(error))
         }
+        
+        Djuanda.randomNameOnline = function(callback){
+            var elems = document.getElementsByClassName(callback);
+            fetch('https://uinames.com/api/?region=united%20states&amount='+elems.length)
+            .then(response => response.json())
+            .then(data => {
+                for(var i = 0; i < elems.length; i++) {
+                    elems[i].innerHTML = data[i].name+' '+ data[i].surname;
+                }
+            })
+            .catch(error => console.error(error))
+        }
+
+
         Djuanda.randomName = function(callback){  
             var data = ['Clifford Goewey ', 
             'Douglass Cyrus', 
@@ -64,8 +80,12 @@
             'Harley Bevil',  
             'Casandra Phong',  
             'Lillie Garza']
-            var rand = data[Math.floor(Math.random() * data.length)];
-            document.getElementById(callback).innerHTML = rand ;
+            var elems = document.getElementsByClassName(callback);
+
+            for(var i = 0; i < elems.length; i++) {
+                var rand = data[Math.floor(Math.random() * data.length)];
+                elems[i].innerHTML = rand;
+            }
         }
 
         Djuanda.randomNameId = function(callback){  
@@ -126,6 +146,13 @@
                 elems[i].innerHTML = rand;
             }
         }
+
+
+
+
+
+
+
         return Djuanda;
 }
 
