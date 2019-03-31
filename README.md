@@ -67,7 +67,7 @@ OR
 [CODEPEN](https://codepen.io/hajidalakhtar/pen/mgdWVo)
 
 ## Type
-randomNameOnline <br/> randomNameOnlineId <br/> randomName <br/>randomNameId
+randomNameOnline <br/> randomNameOnlineId <br/> randomName <br/>randomNameId<br/>randomUserOnline<br/> randomEmailId<br/> randomEmailOnlineId<br/> randomEmailOnline
 
 
 
