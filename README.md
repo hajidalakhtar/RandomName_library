@@ -64,6 +64,8 @@ OR
 </script>
 </html>
 ```
+[CODEPEN](https://codepen.io/hajidalakhtar/pen/mgdWVo)
+
 ## Type
 randomNameOnline <br/> randomNameOnlineId <br/> randomName <br/>randomNameId
 
