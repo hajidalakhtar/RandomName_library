@@ -58,7 +58,7 @@ OR
     </table>
 
 </body>
-<script src="http://portofolio.hajidalakhtar.site/Djuanda.js"></script>
+<script src="Djuanda.js"></script>
 <script>
     Djuanda.randomNameId('nama')
 </script>
