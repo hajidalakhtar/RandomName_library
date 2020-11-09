@@ -11,7 +11,7 @@ Random Name library Javascript
 
 OR
 
-<script src="http://portofolio.hajidalakhtar.site/Djuanda.js"></script>
+
 ```
 
 
